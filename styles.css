@@ -1,0 +1,141 @@
+/*** Tag Selectors   **/
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #a3a5ae;
+  text-align: center;
+}
+
+thead {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  color: #40514E;
+}
+
+tbody {
+  font-size: 13px;
+  text-align: left;
+}
+
+table {
+display: inline-block;
+}
+
+/*** Class selectors ***/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.head-table {
+  margin: 3% auto 5% auto;
+  width: 550px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+}
+
+.head-text {
+  font-size: 15px;
+  text-align: center;
+}
+
+.head-text-1 {
+  font-size: 30px;
+  text-align: center;
+  color: #40514E;
+}
+
+.head-text-2 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color: #40514E;
+  padding-bottom: 20px;
+}
+
+.image {
+text-align: right;
+}
+
+.table-1 {
+  display: inline-block;
+  margin: 10px;
+  padding: 30px;
+  width: 300px;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: cyan;
+  border-radius: 5px;
+  box-shadow: 20px 20px 50px lightgrey;
+}
+
+.table-2 {
+  display: inline-block;
+  margin: 10px;
+  padding: 30px;
+  width: 300px;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: red;
+  border-radius: 5px;
+  box-shadow: 20px 20px 50px lightgrey;
+}
+
+.table-3 {
+  display: inline-block;
+  margin: 10px;
+  padding: 30px;
+  width: 300px;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: yellow;
+  border-radius: 5px;
+  box-shadow: 20px 20px 50px lightgrey;
+}
+
+.table-4 {
+  display: inline-block;
+  margin: 10px;
+  padding: 30px;
+  width: 300px;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: blue;
+  border-radius: 5px;
+  box-shadow: 20px 20px 50px lightgrey;
+}
+
+/***
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+***/
