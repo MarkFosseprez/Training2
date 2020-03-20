@@ -4,23 +4,18 @@ body {
   font-weight: 100;
   font-size: 15px;
   color: #a3a5ae;
-  text-align: center;
+  text-align: left;
 }
 
-thead {
-  font-size: 17px;
-  font-weight: bold;
-  text-align: left;
+h1 {
   color: #40514E;
 }
 
-tbody {
-  font-size: 13px;
+h2 {
+  color: #40514E;
   text-align: left;
-}
-
-table {
-display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 /*** Class selectors ***/
@@ -33,35 +28,35 @@ display: inline-block;
   color: #3e52a3;
 }
 
-.head-table {
-  margin: 3% auto 5% auto;
-  width: 550px;
-  display: inline-block;
-  font-size: 15px;
-  text-align: center;
+.cards {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
 }
 
-.head-text {
-  font-size: 15px;
-  text-align: center;
+.cards2 {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
 .head-text-1 {
-  font-size: 30px;
+  margin: 3% auto auto auto;
+  font-size: 45px;
+  font-weight: lighter;
   text-align: center;
-  color: #40514E;
 }
 
 .head-text-2 {
-  font-size: 35px;
+  margin: auto auto 5% auto;
+  font-size: 45px;
   text-align: center;
   font-weight: bold;
-  color: #40514E;
-  padding-bottom: 20px;
 }
 
 .image {
-text-align: right;
+  text-align: right;
 }
 
 .table-1 {
@@ -69,6 +64,7 @@ text-align: right;
   margin: 10px;
   padding: 30px;
   width: 300px;
+  height: 200px;
   border-top-style: solid;
   border-top-width: 3px;
   border-top-color: cyan;
@@ -81,6 +77,7 @@ text-align: right;
   margin: 10px;
   padding: 30px;
   width: 300px;
+  height: 200px;
   border-top-style: solid;
   border-top-width: 3px;
   border-top-color: red;
@@ -93,6 +90,7 @@ text-align: right;
   margin: 10px;
   padding: 30px;
   width: 300px;
+  heigth: 200px;
   border-top-style: solid;
   border-top-width: 3px;
   border-top-color: yellow;
@@ -105,6 +103,7 @@ text-align: right;
   margin: 10px;
   padding: 30px;
   width: 300px;
+  height: 200px;
   border-top-style: solid;
   border-top-width: 3px;
   border-top-color: blue;
